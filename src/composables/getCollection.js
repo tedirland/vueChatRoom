@@ -1,5 +1,4 @@
 import { ref } from '@vue/reactivity';
-import { random } from 'core-js/core/number';
 import { projectFirestore } from '../firebase/config';
 
 const getCollection = collection => {
